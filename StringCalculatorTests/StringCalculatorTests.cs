@@ -21,15 +21,15 @@ namespace StringCalculatorTests
             stringCalculator = new StringCalculator(validators);    
         }
 
-        [TestMethod]
-        public void Add_EmptyString_ReturnsZero()
-        {
-            string numbers = "";
+        //[TestMethod]
+        //public void Add_EmptyString_ReturnsZero()
+        //{
+        //    string numbers = "";
 
-            int actualResult = stringCalculator.Add(numbers);
+        //    int actualResult = stringCalculator.Add(numbers);
 
-            Assert.AreEqual(0, actualResult);
-        }
+        //    Assert.AreEqual(0, actualResult);
+        //}
 
         [TestMethod]
         public void Add_OneNumber_ReturnsTheNumber()
