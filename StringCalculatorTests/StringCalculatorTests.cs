@@ -21,6 +21,8 @@ namespace StringCalculatorTests
             stringCalculator = new StringCalculator(validators);    
         }
 
+        //Test to check commits from VS
+
         [TestMethod]
         public void Add_EmptyString_ReturnsZero()
         {
